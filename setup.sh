@@ -24,6 +24,6 @@ kubectl  taint  no $con_no  node-role.kubernetes.io/master-
 kubectl  get  no  -o wide
 
 # 3. install  CNI
-kubectl  apply  -f ./flanel.yaml
+kubectl  apply  -f ./flannel.yaml
 
 
